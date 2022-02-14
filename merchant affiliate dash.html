@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Kliq</title>
+        <link href='https://fonts.googleapis.com/css?family=poppins' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="dashboard-header">
+            <div class="kliq">Kliq</div>
+            <div class="current-balance">
+                <div class="mrm">
+                    <p class="current">CURRENT BALANCE</p>
+                    <p class="amount">N0.00</p>
+                </div>
+                <div class="mpm">
+                    <div class="icon"><img src="image/icons/notify.svg"></div>
+                    <div class="id">
+                        <p>Lucky Ndube</p>
+                        <img src="image/icons/profile-pic.svg">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="dash">
+            <div class="leftmenu">
+                <div class="dashoptions">
+                    <a href="#">
+                        <div class="option">
+                            <div class="menuicon"><img src="image/icons/dashboard.svg"></div>
+                            <div class="optiontitle">Dashboard</div>
+                        </div>
+                    </a>
+                    <a href="campaign details.html">
+                        <div class="option">
+                            <div class="menuicon"><img src="image/icons/campaigns.svg"></div>
+                            <div class="optiontitle">Campaigns</div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="option" id="selected-menu-option">
+                            <div class="menuicon"><img src="image/icons/campaign.svg"></div>
+                            <div class="optiontitle">Affiliates</div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="option">
+                            <div class="menuicon"><img src="image/icons/media.svg"></div>
+                            <div class="optiontitle">Media Files</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="campaign">
+                <div class="merch-dash-aff">
+                    <div class="aff-graphs">
+                        <h6>AFFILIATE SUMMARY</h6>
+                        <div class="graphs">
+                            <div class="graph blue">
+                                <div class="icon-text">
+                                    <div class="merch-aff-icon">
+                                        <img src="image/icons/blue-click.svg">
+                                    </div>
+                                    <div class="merch-aff-text">
+                                        <p>AFFILIATES</p>
+                                        <b>76</b>
+                                    </div>
+                                </div>
+                                <div class="line-graph">
+                                    <img src="image/icons/blue-line-graph.svg">
+                                </div>
+                            </div>
+                            <div class="graph yellow">
+                                <div class="icon-text">
+                                    <div class="merch-aff-icon">
+                                        <img src="image/icons/yellow-chart.svg">
+                                    </div>
+                                    <div class="merch-aff-text">
+                                        <p>PLATFORMS</p>
+                                        <b>175</b>
+                                    </div>
+                                </div>
+                                <div class="line-graph">
+                                    <img src="image/icons/yellow-line-graph.svg">
+                                </div>
+                            </div>
+                            <div class="graph green">
+                                <div class="icon-text">
+                                    <div class="merch-aff-icon">
+                                        <img src="image/icons/green-conv.svg">
+                                    </div>
+                                    <div class="merch-aff-text">
+                                        <p>IMPRESSIONS</p>
+                                        <b>3,250</b>
+                                    </div>
+                                </div>
+                                <div class="line-graph">
+                                    <img src="image/icons/green-line-graph.svg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top-sliders">
+                        <h6>top Affiliates</h6>
+                        <div class="slideshow-container">
+
+                            <div class="mySlides fade">
+                              <div class="slideContainer">
+                                  <div class="topSliderContainer">
+                                    <div class="tpas">
+                                        <img src="image/icons/profile-pic.svg">
+                                        <div class="tpa-details">
+                                            <b>Lucky Ndube</b>
+                                            <p>987 sales</p>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="bottomSlideContainer">
+                                    <div class="slideInfo">
+                                        <b>5</b>
+                                        <p>PLATFORMS</p>
+                                    </div>
+                                    <div class="slideInfo">
+                                      <b>758</b>
+                                      <p>IMPRESSIONS</p>
+                                  </div>
+                                  <div class="slideInfo">
+                                      <b>1,200</b>
+                                      <p>LEADS</p>
+                                  </div>
+                                  </div>
+                              </div>
+                            </div>
+                            
+                            <div class="mySlides fade">
+                              <div class="slideContainer">
+                                  <div class="topSlideContainer">
+                                    <div class="tpas">
+                                        <img src="image/icons/profile-pic.svg">
+                                        <div class="tpa-details">
+                                            <b>John Doe</b>
+                                            <p>897 sales</p>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="bottomSlideContainer">
+                                      <div class="slideInfo">
+                                          <b>5</b>
+                                          <p>PLATFORMS</p>
+                                      </div>
+                                      <div class="slideInfo">
+                                        <b>728</b>
+                                        <p>IMPRESSIONS</p>
+                                    </div>
+                                    <div class="slideInfo">
+                                        <b>1,000</b>
+                                        <p>LEADS</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="mySlides fade">
+                                <div class="slideContainer">
+                                    <div class="topSlideContainer">
+                                      <div class="tpas">
+                                          <img src="image/icons/profile-pic.svg">
+                                          <div class="tpa-details">
+                                              <b>Chris Stone</b>
+                                              <p>717 sales</p>
+                                          </div>
+                                      </div>
+                                    </div>
+                                    <div class="bottomSlideContainer">
+                                        <div class="slideInfo">
+                                            <b>5</b>
+                                            <p>PLATFORMS</p>
+                                        </div>
+                                        <div class="slideInfo">
+                                          <b>658</b>
+                                          <p>IMPRESSIONS</p>
+                                      </div>
+                                      <div class="slideInfo">
+                                          <b>800</b>
+                                          <p>LEADS</p>
+                                      </div>
+                                      </div>
+                                  </div>
+                            </div>
+                            
+                            </div>
+                            <br>
+                            
+                            <div class="dots">
+                              <span class="dot"></span> 
+                              <span class="dot"></span> 
+                              <span class="dot"></span> 
+                            </div>
+                    </div>
+                </div>
+                <div class="cc">
+                    <div class="more-brands-box">
+                        <div class="first-line">
+                            <div class="first-text">AFFILIATES PERFORMANCE</div>
+                            <div class="second-text"></div>
+                        </div>
+                        <div class="second-line asl">
+                            <div class="ms-menu" id="amc"><p>Affiliates</p></div>
+                            <div class="ms-menu"><p>Sales</p></div>
+                            <div class="ms-menu"><p>Leads</p></div>
+                            <div class="ms-menu"><p>Clicks</p></div>
+                            <div class="ms-menu"><p>Visits</p></div>
+                            <div class="ms-menu"><p>Cancelled</p></div>
+                            <div class="ms-menu"><p>Refunds</p></div>
+                            <div class="ms-menu" id="dc"><p>Commissions</p></div>
+                        </div>
+                        <div class="one-brand">
+                            <div class="brand-option merchb">
+                                <div class="active-dp mad">
+                                    <img src="image/icons/profile-pic.svg">
+                                    <div class="blue-service">
+                                        <div class="porp">Lucky Ndube</div>
+                                    </div>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>250</p>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>120</p>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>375</p>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>423</p>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>102</p>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>2</p>
+                                </div>
+                                <div class="commi">
+                                    <p>N540,000</p>
+                                    <div class="sbt comi">
+                                        <button>APPROVE</button>
+                                    </div>
+                                </div>
+                                <div class="edit-dots">
+                                    <img src="image/icons/dots.svg">
+                                </div>
+                            </div>
+                            <div class="brand-option-mobile">
+                                <div class="active-dp-mobile">
+                                    <div class="dp-right">
+                                        <img src="image/icons/profile-pic.svg">
+                                        <div class="blue-service-mobile">
+                                            <div class="bld-hst">Lucky Ndube</div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img src="image/icons/dots.svg">
+                                    </div>
+                                </div>
+                                <div class="mob-list">
+                                    <div class="mob-line merch-mob-line">
+                                        <div class="merch-mob">
+                                            <b>250</b>
+                                            <p>Sales</p>
+                                        </div>
+                                        <div class="merch-mob">
+                                            <b>120</b>
+                                            <p>Leads</p>
+                                        </div>
+                                        <div class="merch-mob">
+                                            <b>375</b>
+                                            <p>Clicks</p>
+                                        </div>
+                                        <div class="merch-mob">
+                                            <b>423</b>
+                                            <p>Visits</p>
+                                        </div>
+                                        <div class="merch-mob">
+                                            <b>102</b>
+                                            <p>Cancelled</p>
+                                        </div>
+                                        <div class="merch-mob">
+                                            <b>2</b>
+                                            <p>refunds</p>
+                                        </div>
+                                    </div>
+                                    <div class="commi-mob">
+                                        <div>
+                                            <b>N540,000</b>
+                                            <p>Commissions</p>
+                                        </div>
+                                        <div class="sbt">
+                                            <button>APPROVE</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="one-brand">
+                            <div class="brand-option merchb">
+                                <div class="active-dp mad">
+                                    <img src="image/icons/profile-pic.svg">
+                                    <div class="blue-service">
+                                        <div class="porp">Lucky Ndube</div>
+                                    </div>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>250</p>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>120</p>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>375</p>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>423</p>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>102</p>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>2</p>
+                                </div>
+                                <div class="commi">
+                                    <p>N540,000</p>
+                                    <div class="sbt comi">
+                                        <button>APPROVE</button>
+                                    </div>
+                                </div>
+                                <div class="edit-dots">
+                                    <img src="image/icons/dots.svg">
+                                </div>
+                            </div>
+                            <div class="brand-option-mobile">
+                                <div class="active-dp-mobile">
+                                    <div class="dp-right">
+                                        <img src="image/icons/profile-pic.svg">
+                                        <div class="blue-service-mobile">
+                                            <div class="bld-hst">Lucky Ndube</div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img src="image/icons/dots.svg">
+                                    </div>
+                                </div>
+                                <div class="mob-list">
+                                    <div class="mob-line merch-mob-line">
+                                        <div class="merch-mob">
+                                            <b>250</b>
+                                            <p>Sales</p>
+                                        </div>
+                                        <div class="merch-mob">
+                                            <b>120</b>
+                                            <p>Leads</p>
+                                        </div>
+                                        <div class="merch-mob">
+                                            <b>375</b>
+                                            <p>Clicks</p>
+                                        </div>
+                                        <div class="merch-mob">
+                                            <b>423</b>
+                                            <p>Visits</p>
+                                        </div>
+                                        <div class="merch-mob">
+                                            <b>102</b>
+                                            <p>Cancelled</p>
+                                        </div>
+                                        <div class="merch-mob">
+                                            <b>2</b>
+                                            <p>refunds</p>
+                                        </div>
+                                    </div>
+                                    <div class="commi-mob">
+                                        <div>
+                                            <b>N540,000</b>
+                                            <p>Commissions</p>
+                                        </div>
+                                        <div class="sbt">
+                                            <button>APPROVE</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="one-brand">
+                            <div class="brand-option merchb">
+                                <div class="active-dp mad">
+                                    <img src="image/icons/profile-pic.svg">
+                                    <div class="blue-service">
+                                        <div class="porp">Lucky Ndube</div>
+                                    </div>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>250</p>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>120</p>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>375</p>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>423</p>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>102</p>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>2</p>
+                                </div>
+                                <div class="commi">
+                                    <p>N540,000</p>
+                                    <div class="sbt comi">
+                                        <button>APPROVE</button>
+                                    </div>
+                                </div>
+                                <div class="edit-dots">
+                                    <img src="image/icons/dots.svg">
+                                </div>
+                            </div>
+                            <div class="brand-option-mobile">
+                                <div class="active-dp-mobile">
+                                    <div class="dp-right">
+                                        <img src="image/icons/profile-pic.svg">
+                                        <div class="blue-service-mobile">
+                                            <div class="bld-hst">Lucky Ndube</div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img src="image/icons/dots.svg">
+                                    </div>
+                                </div>
+                                <div class="mob-list">
+                                    <div class="mob-line merch-mob-line">
+                                        <div class="merch-mob">
+                                            <b>250</b>
+                                            <p>Sales</p>
+                                        </div>
+                                        <div class="merch-mob">
+                                            <b>120</b>
+                                            <p>Leads</p>
+                                        </div>
+                                        <div class="merch-mob">
+                                            <b>375</b>
+                                            <p>Clicks</p>
+                                        </div>
+                                        <div class="merch-mob">
+                                            <b>423</b>
+                                            <p>Visits</p>
+                                        </div>
+                                        <div class="merch-mob">
+                                            <b>102</b>
+                                            <p>Cancelled</p>
+                                        </div>
+                                        <div class="merch-mob">
+                                            <b>2</b>
+                                            <p>refunds</p>
+                                        </div>
+                                    </div>
+                                    <div class="commi-mob">
+                                        <div>
+                                            <b>N540,000</b>
+                                            <p>Commissions</p>
+                                        </div>
+                                        <div class="sbt">
+                                            <button>APPROVE</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="one-brand">
+                            <div class="brand-option merchb">
+                                <div class="active-dp mad">
+                                    <img src="image/icons/profile-pic.svg">
+                                    <div class="blue-service">
+                                        <div class="porp">Lucky Ndube</div>
+                                    </div>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>250</p>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>120</p>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>375</p>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>423</p>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>102</p>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>2</p>
+                                </div>
+                                <div class="commi">
+                                    <p>N540,000</p>
+                                    <div class="sbt comi">
+                                        <button>APPROVE</button>
+                                    </div>
+                                </div>
+                                <div class="edit-dots">
+                                    <img src="image/icons/dots.svg">
+                                </div>
+                            </div>
+                            <div class="brand-option-mobile">
+                                <div class="active-dp-mobile">
+                                    <div class="dp-right">
+                                        <img src="image/icons/profile-pic.svg">
+                                        <div class="blue-service-mobile">
+                                            <div class="bld-hst">Lucky Ndube</div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img src="image/icons/dots.svg">
+                                    </div>
+                                </div>
+                                <div class="mob-list">
+                                    <div class="mob-line merch-mob-line">
+                                        <div class="merch-mob">
+                                            <b>250</b>
+                                            <p>Sales</p>
+                                        </div>
+                                        <div class="merch-mob">
+                                            <b>120</b>
+                                            <p>Leads</p>
+                                        </div>
+                                        <div class="merch-mob">
+                                            <b>375</b>
+                                            <p>Clicks</p>
+                                        </div>
+                                        <div class="merch-mob">
+                                            <b>423</b>
+                                            <p>Visits</p>
+                                        </div>
+                                        <div class="merch-mob">
+                                            <b>102</b>
+                                            <p>Cancelled</p>
+                                        </div>
+                                        <div class="merch-mob">
+                                            <b>2</b>
+                                            <p>refunds</p>
+                                        </div>
+                                    </div>
+                                    <div class="commi-mob">
+                                        <div>
+                                            <b>N540,000</b>
+                                            <p>Commissions</p>
+                                        </div>
+                                        <div class="sbt">
+                                            <button>APPROVE</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="one-brand">
+                            <div class="brand-option merchb">
+                                <div class="active-dp mad">
+                                    <img src="image/icons/profile-pic.svg">
+                                    <div class="blue-service">
+                                        <div class="porp">Lucky Ndube</div>
+                                    </div>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>250</p>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>120</p>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>375</p>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>423</p>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>102</p>
+                                </div>
+                                <div class="revenue-details aff-value">
+                                    <p>2</p>
+                                </div>
+                                <div class="commi">
+                                    <p>N540,000</p>
+                                    <div class="sbt comi">
+                                        <button>APPROVE</button>
+                                    </div>
+                                </div>
+                                <div class="edit-dots">
+                                    <img src="image/icons/dots.svg">
+                                </div>
+                            </div>
+                            <div class="brand-option-mobile">
+                                <div class="active-dp-mobile">
+                                    <div class="dp-right">
+                                        <img src="image/icons/profile-pic.svg">
+                                        <div class="blue-service-mobile">
+                                            <div class="bld-hst">Lucky Ndube</div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img src="image/icons/dots.svg">
+                                    </div>
+                                </div>
+                                <div class="mob-list">
+                                    <div class="mob-line merch-mob-line">
+                                        <div class="merch-mob">
+                                            <b>250</b>
+                                            <p>Sales</p>
+                                        </div>
+                                        <div class="merch-mob">
+                                            <b>120</b>
+                                            <p>Leads</p>
+                                        </div>
+                                        <div class="merch-mob">
+                                            <b>375</b>
+                                            <p>Clicks</p>
+                                        </div>
+                                        <div class="merch-mob">
+                                            <b>423</b>
+                                            <p>Visits</p>
+                                        </div>
+                                        <div class="merch-mob">
+                                            <b>102</b>
+                                            <p>Cancelled</p>
+                                        </div>
+                                        <div class="merch-mob">
+                                            <b>2</b>
+                                            <p>refunds</p>
+                                        </div>
+                                    </div>
+                                    <div class="commi-mob">
+                                        <div>
+                                            <b>N540,000</b>
+                                            <p>Commissions</p>
+                                        </div>
+                                        <div class="sbt">
+                                            <button>APPROVE</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="knavbar">
+            <div class="nava">
+                <div class="menuicon"><img src="image/icons/home.svg"></div>
+                <div class="optiontitle">Home</div>
+            </div>
+            <div class="nava">
+                <div class="menuicon"><img src="image/icons/campaigns.svg"></div>
+                <div class="optiontitle">Campaigns</div>
+            </div>
+            <div class="nava">
+                <div class="menuicon"><img src="image/icons/earnings.svg"></div>
+                <div class="optiontitle">Earnings</div>
+            </div>
+            <div class="nava">
+                <div class="menuicon"><img src="image/icons/setting.svg"></div>
+                <div class="optiontitle">Settings</div>
+            </div>
+        </div>
+    </body>
+    <script>
+        var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000);
+}
+    </script>
+</html>

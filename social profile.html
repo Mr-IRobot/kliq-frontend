@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Kliq</title>
+        <link href='https://fonts.googleapis.com/css?family=poppins' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="dashboard-header">
+            <div class="kliq">Kliq</div>
+            <div class="current-balance">
+                <div class="mpm">
+                    <div class="icon"><img src="image/icons/notify.svg"></div>
+                    <div class="id">
+                        <p>Lucky Ndube</p>
+                        <img src="image/icons/profile-pic.svg">
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <section class="dash">
+            <div class="leftmenu-settings">
+                <div class="dashoptions">
+                    <a href="#">
+                        <div class="option">
+                            <div class="menuicon"><img src="image/icons/home.svg"></div>
+                            <div class="optiontitle">Home</div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="option">
+                            <div class="menuicon"><img src="image/icons/campaign.svg"></div>
+                            <div class="optiontitle">Campaigns</div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="option">
+                            <div class="menuicon"><img src="image/icons/earnings.svg"></div>
+                            <div class="optiontitle">Earnings</div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="option" id="selected-menu-option">
+                            <div class="menuicon"><img src="image/icons/setting.svg"></div>
+                            <div class="optiontitle">Settings</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="more-dashoptions">
+                    <a href="personal details.html">
+                        <div class="mdoption">
+                            <div class="mdotitle">Personal info</div>
+                            <div class="mdicon"><img src="image/next.png"></div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="mdoption">
+                            <div class="mdotitle"><b>Social profiles</b></div>
+                            <div class="mdicon"><img src="image/next.png"></div>
+                        </div>
+                    </a>
+                    <a href="payment details.html">
+                        <div class="mdoption">
+                            <div class="mdotitle">Payment details</div>
+                            <div class="mdicon"><img src="image/next.png"></div>
+                        </div>
+                    </a>
+                    <a href="change password.html">
+                        <div class="mdoption">
+                            <div class="mdotitle">Password</div>
+                            <div class="mdicon"><img src="image/next.png"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="setting-div-social">
+                <div class="lgt">
+                    <div class="log-out mdoption">
+                        <img src="image/icons/logout.svg">
+                        <p>Logout</p>
+                    </div>
+                </div>
+                <div class="social-div">
+                    <style>
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #FFFFFF;
+  color: #000000;
+  padding: 0;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left: 0;
+  border-radius: 5px;
+  height: fit-content;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    font-size: 12px;
+    padding: inherit;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #FFFFFF;
+}
+</style>
+
+<div class="dropdown sub-set-menu">
+  <div class="dropbtn">
+      <div class="mdoption" style="
+      padding: 0;
+  ">
+        <p>social profile</p>
+        <img src="image/next.png">
+      </div>
+  </div>
+  <div class="dropdown-content">
+    <a href="personal details.html">personal details</a>
+    <a href="payment details.html">payment details</a>
+    <a href="change password.html">password</a>
+  </div>
+</div>
+                    <b>MANAGE YOUR SOCIAL PROFILES</b>
+                    <hr>
+                    <div class="soc-block">
+                        <div class="slink fx">
+                            <p>website</p>
+                            <button><img src="image/icons/plus.svg"> Add url</button>
+                        </div>
+                        <div class="slink">
+                            <p1>Luckyndube.com</p1>
+                            <p2>remove</p2>
+                        </div>
+                        <div class="slink">
+                            <p1>Lucksyblog.com</p1>
+                            <p2>remove</p2>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="slink fx">
+                        <p>Twitter</p>
+                        <button><img src="image/icons/plus.svg"> Add profile</button>
+                    </div>
+                    <hr>
+                    <div class="slink fx">
+                        <p>Facebook</p>
+                        <button><img src="image/icons/plus.svg"> Add profile</button>
+                    </div>
+                    <hr>
+                    <div class="slink fx">
+                        <p>Instagram</p>
+                        <button><img src="image/icons/plus.svg"> Add profile</button>
+                    </div>
+                    <hr>
+                    <div class="slink fx">
+                        <p>LinkedIn</p>
+                        <button><img src="image/icons/plus.svg"> Add profile</button>
+                    </div>
+                    <hr>
+                    <div class="slink fx">
+                        <p>Youtube</p>
+                        <button><img src="image/icons/plus.svg"> Add profile</button>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </section>
+        <div class="knavbar">
+            <div class="nava">
+                <div class="menuicon"><img src="image/icons/home.svg"></div>
+                <div class="optiontitle">Home</div>
+            </div>
+            <div class="nava">
+                <div class="menuicon"><img src="image/icons/campaigns.svg"></div>
+                <div class="optiontitle">Campaigns</div>
+            </div>
+            <div class="nava">
+                <div class="menuicon"><img src="image/icons/earnings.svg"></div>
+                <div class="optiontitle">Earnings</div>
+            </div>
+            <div class="nava">
+                <div class="menuicon"><img src="image/icons/setting.svg"></div>
+                <div class="optiontitle">Settings</div>
+            </div>
+        </div>
+
+
+    <script>
+        
+    </script>
+    </body>
+</html>
